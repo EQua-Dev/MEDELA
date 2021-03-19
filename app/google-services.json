@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "490186731372",
+    "project_id": "medela-472d6",
+    "storage_bucket": "medela-472d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490186731372:android:bf5e0fbdd05993fb990d49",
+        "android_client_info": {
+          "package_name": "com.androidstrike.medela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490186731372-c4u84bgpn6sa3nog18i4fr2jvla30skv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidstrike.medela",
+            "certificate_hash": "6aba7a1db0a6bc68a1f09a07dfb05f3e218e8853"
+          }
+        },
+        {
+          "client_id": "490186731372-d1dhlnr03o163ier9btkml2gvr6pskq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnTp19gg1lPiwaJDHZoAZln_mp8Lgq_Vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490186731372-d1dhlnr03o163ier9btkml2gvr6pskq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

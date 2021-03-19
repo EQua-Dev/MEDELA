@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MEDELA"
+    tools:context=".landing.fragments.Profile">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#4a4aa1"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/oops_image" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="4dp"
+                android:text="Luomy EQua"
+                android:textColor="#CBCE91"
+                android:textSize="18sp"
+                android:theme="@style/Theme.MEDELA"
+                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#424299"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/text_profile_bio"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#38388f"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/profile_gender"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="Male"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_gender_profile24" />
+
+                            <TextView
+                                android:id="@+id/profile_dob"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="20 December 1998"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_child_care_profile24" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/text_profile_health"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#38388f"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/profile_bld_grp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="O+"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_bloodtype_profile24" />
+
+                            <TextView
+                                android:id="@+id/profile_genotype"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="AA"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_bloodtype_profile24" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="8dp"
+                                android:text="@string/text_profile_allergies"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_24" />
+
+                            <TextView
+                                android:id="@+id/profile_allergies"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/text_profile_shipping"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#38388f"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/profile_email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="luomyequa@gmail.com"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_contact_mail_24" />
+
+                            <TextView
+                                android:id="@+id/profile_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="15A Hillview Avenue, Enugu"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_person_pin_circle_profile24" />
+
+                            <TextView
+                                android:id="@+id/profile_phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:text="15A Hillview Avenue, Enugu"
+                                android:textColor="#CBCE91"
+                                android:textSize="18sp"
+                                android:theme="@style/Theme.MEDELA"
+                                app:drawableEndCompat="@drawable/ic_baseline_edit_bio_profile_24"
+                                app:drawableStartCompat="@drawable/ic_baseline_contact_phone_profile24" />
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
