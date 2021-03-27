@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:id="@+id/txtStoreName"
+        app:drawableStartCompat="@drawable/ic_baseline_factory_24" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt_drug_price"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:id="@+id/txt_drug_stock"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

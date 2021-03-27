@@ -40,6 +40,14 @@
     <string name="menu_drug_history">Drug History</string>
     <string name="menu_profile">Profile</string>
 
+    <string name="txt_drug_manufactured">Manufactured By: </string>
+
+    <string name="txt_dosage">Dosage</string>
+    <string name="txt_dosage_adult">Adult</string>
+    <string name="txt_dosage_children">Children</string>
+
+    <string name="txt_stores_avail">Stores Available In</string>
+
     <string name="menu_logout">Logout</string>
 
     <string name="menu_utilities">Utilities</string>
