@@ -4,12 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     android:label="@string/menu_home"
-    app:startDestination="@id/nav_home">
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="com.androidstrike.medela.landing.fragments.Home"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+    app:startDestination="@id/nav_drug_history">
     <fragment
         android:id="@+id/nav_find_drug"
         android:name="com.androidstrike.medela.landing.fragments.Search"

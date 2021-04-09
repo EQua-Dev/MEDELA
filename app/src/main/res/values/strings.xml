@@ -37,7 +37,7 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_find_drug">Find Drug</string>
-    <string name="menu_drug_history">Drug History</string>
+    <string name="menu_drug_history">History</string>
     <string name="menu_profile">Profile</string>
 
     <string name="txt_drug_manufactured">Manufactured By: </string>
@@ -47,6 +47,9 @@
     <string name="txt_dosage_children">Children</string>
 
     <string name="txt_stores_avail">Stores Available In</string>
+
+    <string name="btn_purchase">Purchase</string>
+    <string name="btn_cancel">Cancel</string>
 
     <string name="menu_logout">Logout</string>
 

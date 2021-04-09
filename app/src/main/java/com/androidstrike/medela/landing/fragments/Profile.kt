@@ -17,6 +17,7 @@ import androidx.constraintlayout.widget.ConstraintSet
 import androidx.fragment.app.Fragment
 import com.androidstrike.medela.R
 import com.androidstrike.medela.models.User
+import com.androidstrike.medela.utils.Common
 import com.androidstrike.medela.utils.toast
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputEditText
@@ -61,6 +62,8 @@ class Profile : Fragment(), DatePickerDialog.OnDateSetListener {
         val profileListener = object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 usrModel = snapshot.getValue(User::class.java)
+
+//                Common.user_name = usrModel!!.name
 
                 profile_name.text = usrModel!!.name
                 if (usrModel!!.gender == "null")

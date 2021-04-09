@@ -61,6 +61,7 @@ dependencies {
     implementation 'com.hbb20:ccp:2.3.2'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
 
     //firebase
     implementation 'com.google.firebase:firebase-auth-ktx:20.0.3'
@@ -73,6 +74,10 @@ dependencies {
 
     //Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //rave-android for default drop-ui
+    implementation 'com.github.flutterwave.rave-android:rave_android:2.1.22'
+
 
 
 
